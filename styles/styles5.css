@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 38, 38);
+}
+#container{
+   display: grid;
+   grid-template-columns: repeat(8 , 100px);
+   grid-template-rows: repeat(6, 100px);
+   grid-template-areas: 
+   "l1 l1 c1 c1 c1 r1 r1"
+   "roxo1 ltotal ltotal c2 rtotal rtotal roxo2"
+   "lf d3 d3 d3 d3 d3 rf"
+   "roxo3 lui lui cui rui rui roxo4"
+   "ph ph ph ph ph ph ph"
+   
+}
+#roxo1{
+    grid-area: roxo1;
+    background-color: #af07da;
+}
+#roxo2{
+    grid-area: roxo2;
+    background-color: #af07da;
+}
+#roxo3{
+    grid-area: roxo3;
+    background-color: #af07da;
+}
+#roxo4{
+    grid-area: roxo4;
+    background-color: #af07da;
+}
+#l1{
+    grid-area: l1;
+    background-color: #ff5c4f;
+}
+#c1{
+    grid-area: c1;
+    background-color: #2b1007;
+}
+#r1{
+    grid-area: r1;
+    background-color: #ff0032;
+}
+#ltotal{
+    grid-area: ltotal;
+    background-color: rgb(75, 40, 40);
+}
+#c2{
+    grid-area: c2;
+    background-color: rgb(71, 71, 41);
+}
+#rtotal{
+    grid-area: rtotal;
+    background-color: #a8fff7;
+}
+#lf{
+    grid-area: lf;
+    background-color: #0061a2;
+}
+#d3{
+    grid-area: d3;
+    background-color: #dc8744;
+}
+#rf{
+    grid-area: rf;
+    background-color: #34111b;
+}
+#lui{
+    grid-area: lui;
+    background-color: #857770;
+}
+#cui{
+    grid-area: cui;
+    background-color: #00284a;
+}
+#rui{
+    grid-area: rui;
+    background-color: #a09477;
+}
+#pholder{
+    grid-area: ph;
+    background-color: #ecbf56;
+}
+.interno{
+    border: solid white 1px;
+    font-size: 20px;
+    color: white;
+}
