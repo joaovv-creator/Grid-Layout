@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+    width: 850px;
+}
+#um{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color: rgb(226, 2, 189);
+    text-align: center;
+    align-content: center;
+    color: rgb(0, 255, 0);
+    border-radius: 15px;
+}
+#dois{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 15px;
+}
+#tres{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    align-content: center;
+    color: rgb(226, 2, 189);
+    border-radius: 15px;
+}
+#quatro{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-color: rgb(226, 2, 189);
+    text-align: center;
+    align-content: center;
+    color: rgb(0, 255, 0);
+    border-radius: 15px;
+}
+#cinco{
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 15px;
+}
+#seis{
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 15px;
+}
+#sete{
+    grid-column: 2 / 5;
+    grid-row: 4 / 5;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    align-content: center;
+    color: rgb(226, 2, 189);
+    border-radius: 15px;
+}
+#oito{
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    background-color: rgb(226, 2, 189);
+    text-align: center;
+    align-content: center;
+    color: rgb(0, 255, 0);
+    border-radius: 15px;
+}
+#nove{
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 15px;
+}
